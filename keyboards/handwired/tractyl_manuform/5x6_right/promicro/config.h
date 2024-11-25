@@ -28,6 +28,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_USB_DETECT
 #define SPLIT_USB_TIMEOUT 2500
 
+// Tapping Toggle feature TT(layer)
+#define TAPPING_TOGGLE 2
+
 // Trackball settings
 #define CHARYBDIS_MINIMUM_DEFAULT_DPI 800 // The minimum sensitivity in default mode.
 // #define CHARYBDIS_DEFAULT_DPI_CONFIG_STEP 200 // Change of the sensitivity in cursor mode each time POINTER_DEFAULT_DPI_FORWARD/ REVERSE is pressed.
