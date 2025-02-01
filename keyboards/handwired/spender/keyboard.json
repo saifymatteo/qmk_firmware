@@ -17,14 +17,14 @@
     "nkro": true
   },
   "matrix_pins": {
-    "cols": ["C0", "C1", "C2", "C3", "C4", "C5", "F0", "F1", "F2", "F3", "F4", "F5"],
+    "cols": ["D0", "D1", "D2", "D3", "D4", "D5", "C0", "C1", "C2", "C3", "C4", "C5"],
     "rows": ["A0", "A1", "A2", "A3", "A4"]
   },
-  "diode_direction": "ROW2COL",
+  "diode_direction": "COL2ROW",
   "processor": "at90usb1286",
   "bootloader": "halfkay",
   "ws2812": {
-      "pin": "E0"
+      "pin": "D7"
   },
   "rgblight": {
       "led_count": 20,
